@@ -6,5 +6,5 @@
 for i in `cat /var/www/html/qst-s3/pages.txt`
 do
 
-	touch $i
+	cp Linux.html $i
 done
